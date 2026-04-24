@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nyayadarsi | AI-Powered Tender Evaluation</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Lenis Smooth Scroll -->
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.39/dist/lenis.min.js"></script>
+</head>
+<body>
+    <!-- Background Effects -->
+    <div class="bg-fx">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar glass-nav">
+        <div class="logo">
+            <i class="fa-solid fa-scale-balanced"></i> Nyayadarsi
+        </div>
+        <div class="nav-links">
+            <a href="#vision">Vision</a>
+            <a href="#solution">Solution</a>
+            <a href="#architecture">Architecture</a>
+            <a href="#audit">Audit</a>
+            <a href="#team">Team</a>
+        </div>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+            <i class="fa-solid fa-sun"></i>
+        </button>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-content reveal-up">
+                <div class="badge glass">
+                    <span class="pulse-dot"></span> CRPF Tender Evaluation
+                </div>
+                <h1 class="hero-title">Nyayadarsi</h1>
+                <h2 class="hero-subtitle">AI-Powered Tender Evaluation & Accountability Engine</h2>
+                <p class="hero-desc">Restoring the integrity of the L1 mandate and providing ironclad legal protection for honest evaluation officers.</p>
+                <div class="cta-group">
+                    <a href="#solution" class="btn btn-primary">Explore Pipeline</a>
+                    <a href="#team" class="btn btn-secondary glass">Meet the Team</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 1. Vision (Threats) -->
+        <section id="vision" class="section">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <span class="eyebrow accent-red">1. Fulfilling the Vision</span>
+                    <h2>Defending the Process</h2>
+                    <p>Evaluating officers face immense pressure. We look beyond standard document parsing to solve the two fundamental threats to procurement integrity.</p>
+                </div>
+                <div class="grid-2">
+                    <div class="card glass threat-card reveal-up">
+                        <div class="card-icon warning"><i class="fa-solid fa-file-circle-exclamation"></i></div>
+                        <h3>Accidental Non-Compliance</h3>
+                        <p>A legitimate small business submits a valid certificate under a slightly different legal name. A rigid automated OCR system eliminates them.</p>
+                        <div class="alert warning">This is a failure of the tool.</div>
+                    </div>
+                    <div class="card glass threat-card reveal-up delay-1">
+                        <div class="card-icon danger"><i class="fa-solid fa-user-ninja"></i></div>
+                        <h3>Deliberate Obfuscation</h3>
+                        <p>A sophisticated external bad actor buries a fraudulent financial certificate in a degraded scan, actively trying to trick a human evaluator under deadline pressure.</p>
+                        <div class="alert danger">This is an attack on the process.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Solution (Phases) -->
+        <section id="solution" class="section">
+            <div class="container">
+                <div class="section-header center reveal-up">
+                    <span class="eyebrow accent-blue">2. The Core Solution</span>
+                    <h2>Restoring Integrity to L1</h2>
+                    <p>Financial bids remain strictly masked until eligibility is verified. We sequence decision-making to structurally prevent manipulation.</p>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item reveal-up">
+                        <div class="t-icon bg-green"><i class="fa-solid fa-robot"></i></div>
+                        <div class="t-content card glass">
+                            <span class="t-badge green">Phase 1</span>
+                            <h3>Document Eligibility (AI)</h3>
+                            <p>Incoming bids are processed through our ingestion engine. Bidders who clearly fail mandatory criteria are auto-excluded with a full citation trail.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item reveal-up">
+                        <div class="t-icon bg-yellow"><i class="fa-solid fa-scale-unbalanced"></i></div>
+                        <div class="t-content card glass highlight">
+                            <span class="t-badge yellow">Phase 2</span>
+                            <h3>The YELLOW Queue (Human + AI)</h3>
+                            <p>The AI does not make silent legal decisions. It triages ambiguous cases into a structured queue, presenting the exact extracted anomaly and empowering the officer to log a digitally signed pass/fail decision.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item reveal-up">
+                        <div class="t-icon bg-blue"><i class="fa-solid fa-network-wired"></i></div>
+                        <div class="t-content card glass">
+                            <span class="t-badge blue">Phase 3</span>
+                            <h3>Micro-Collusion Check</h3>
+                            <p>Before final award, the system runs cross-document analysis on the submitted cohort to detect shared metadata or forensic similarities indicating cartel behavior.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Architecture -->
+        <section id="architecture" class="section">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <span class="eyebrow accent-purple">3. Technical Architecture</span>
+                    <h2>Built for Reality</h2>
+                    <p>Standard OCR destroys table structures. Nyayadarsi is built specifically for the reality of complex Indian procurement documents.</p>
+                </div>
+                <div class="grid-3 mb-xl">
+                    <div class="card glass reveal-up">
+                        <div class="card-icon"><i class="fa-solid fa-file-pdf"></i></div>
+                        <h4>Format Detection</h4>
+                        <p>Identifies digital PDFs, scanned images, and structured tables.</p>
+                    </div>
+                    <div class="card glass reveal-up delay-1">
+                        <div class="card-icon"><i class="fa-solid fa-border-all"></i></div>
+                        <h4>Layout-Aware Extraction</h4>
+                        <p>Utilizes LayoutLMv3 to preserve the spatial relationships of financial tables and technical matrices.</p>
+                    </div>
+                    <div class="card glass reveal-up delay-2">
+                        <div class="card-icon"><i class="fa-solid fa-sitemap"></i></div>
+                        <h4>The Financial Ontology</h4>
+                        <p>Uses a curated, domain-specific mapping of Indian CA certificates to identify valid equivalents without relying on exact, rigid keyword matches.</p>
+                    </div>
+                </div>
+
+                <div class="table-container card glass reveal-up">
+                    <h3 class="mb-md">Evaluation Engine Confidence Scoring</h3>
+                    <p class="mb-lg op-80">Verdicts are reached using an optimized LLM running purely in extractive mode to prevent hallucination.</p>
+                    <table class="confidence-table">
+                        <thead>
+                            <tr>
+                                <th>Score Band</th>
+                                <th>Confidence</th>
+                                <th>System Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="row-green">
+                                <td><strong>GREEN</strong></td>
+                                <td>85–100%</td>
+                                <td>Evidence verified. Auto-marks eligible.</td>
+                            </tr>
+                            <tr class="row-yellow">
+                                <td><strong>YELLOW</strong></td>
+                                <td>Below 85%</td>
+                                <td>Ambiguous. Triggers mandatory human review with a structured reason statement.</td>
+                            </tr>
+                            <tr class="row-red">
+                                <td><strong>RED</strong></td>
+                                <td>85–100% (fail)</td>
+                                <td>Value clearly below threshold. Auto-marks ineligible with full citation chain.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Audit Trail -->
+        <section id="audit" class="section">
+            <div class="container">
+                <div class="card glass p-xl reveal-up border-gradient">
+                    <span class="eyebrow accent-blue">4. The Audit Trail</span>
+                    <h2>Legal Protection for Officers</h2>
+                    <p class="mb-lg">Honest officers who make correct disqualification decisions frequently face legal petitions. Every automated action and human override generates an append-only log:</p>
+                    <ul class="audit-list">
+                        <li><i class="fa-solid fa-clock"></i> <strong>Microsecond Precision:</strong> Timestamp to microsecond precision.</li>
+                        <li><i class="fa-solid fa-fingerprint"></i> <strong>Cryptographic Hash:</strong> Hash of the source document to prove it wasn't tampered with.</li>
+                        <li><i class="fa-solid fa-quote-right"></i> <strong>Verbatim Extraction:</strong> Values cited by page and cell location.</li>
+                        <li><i class="fa-solid fa-signature"></i> <strong>Accountability:</strong> Officer Digital Signature ID for any human override.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5 & 6. Risks & Roadmap -->
+        <section id="risks-roadmap" class="section">
+            <div class="container grid-2">
+                <!-- Risks -->
+                <div class="reveal-up">
+                    <span class="eyebrow accent-red">5. Mitigation</span>
+                    <h2 class="mb-md">Risks & Limitations</h2>
+                    <div class="risk-item">
+                        <h4>LLM Hallucination</h4>
+                        <p>Mitigated by restricting the LLM strictly to extractive QA. It is forbidden from inferring numbers.</p>
+                    </div>
+                    <div class="risk-item">
+                        <h4>Sophisticated Forgery</h4>
+                        <p>Mitigated through cross-document consistency checks (e.g., turnover on a CA certificate must logically match the submitted ITR).</p>
+                    </div>
+                    <div class="risk-item">
+                        <h4>Legal Ambiguity</h4>
+                        <p>Subjective criteria like "works of similar complexity" are flagged as YELLOW rather than guessed, keeping legal authority firmly with the human officer.</p>
+                    </div>
+                </div>
+                <!-- Roadmap -->
+                <div class="reveal-up delay-1">
+                    <span class="eyebrow accent-green">6. Beyond Evaluation</span>
+                    <h2 class="mb-md">The Roadmap</h2>
+                    <div class="roadmap-item card glass">
+                        <span class="t-badge purple mb-sm">Phase 2 (Pre-Tender)</span>
+                        <p>An "Integrity Alert" system that analyzes drafting criteria to prevent restrictive specifications.</p>
+                    </div>
+                    <div class="roadmap-item card glass mt-md">
+                        <span class="t-badge purple mb-sm">Phase 3 (Post-Award)</span>
+                        <p>A builder dashboard requiring daily, GPS-verified progress uploads analyzed by computer vision to authorize milestone payments.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. Team & Hackathon -->
+        <section id="team" class="section section-team relative">
+            <div class="container">
+                <div class="card glass p-xl text-center reveal-up">
+                    <span class="eyebrow accent-saffron">Execution-First Environment</span>
+                    <h2>Team Coding_Aghoris</h2>
+                    <p class="op-80 max-w-700 mx-auto mt-sm">This is an execution-first battleground. The organizers don't want theoretical whitepapers; they want working prototypes solving specific, real-world constraints. This is where socially driven architecture thrives.</p>
+                    
+                    <div class="team-grid mt-lg mb-xl">
+                        <div class="team-member">
+                            <div class="avatar"><i class="fa-solid fa-user-astronaut"></i></div>
+                            <h4>Suryansh</h4>
+                        </div>
+                        <div class="team-member">
+                            <div class="avatar"><i class="fa-solid fa-user-ninja"></i></div>
+                            <h4>Sibam</h4>
+                        </div>
+                        <div class="team-member">
+                            <div class="avatar"><i class="fa-solid fa-user-secret"></i></div>
+                            <h4>Pritam</h4>
+                        </div>
+                        <div class="team-member">
+                            <div class="avatar"><i class="fa-solid fa-user-tie"></i></div>
+                            <h4>Satya</h4>
+                        </div>
+                    </div>
+
+                    <div class="hackathon-details grid-3 text-left p-lg glass border-white">
+                        <div>
+                            <h5><i class="fa-solid fa-calendar-day"></i> Timeline</h5>
+                            <p>April 10 — May 4, 2026</p>
+                        </div>
+                        <div>
+                            <h5><i class="fa-solid fa-location-dot"></i> Venue</h5>
+                            <p>Taj Yeshwantpur, Bengaluru</p>
+                        </div>
+                        <div>
+                            <h5><i class="fa-solid fa-trophy"></i> Ultimate Prize</h5>
+                            <p>Pitch at PAN IIT Summit (May 16) to VCs & Policymakers</p>
+                        </div>
+                    </div>
+                    
+                    <p class="mt-xl text-lg op-80 italic max-w-800 mx-auto">"Nyayadarsi does not replace the procurement officer. It empowers them. It gives the honest officer the documentation to do their job efficiently and the undeniable evidence to defend every decision. This is India's procurement accountability infrastructure."</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="glass-nav">
+        <div class="container f-content">
+            <div class="logo"><i class="fa-solid fa-scale-balanced"></i> Nyayadarsi</div>
+            <p>&copy; 2026 Team Coding_Aghoris</p>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lenis for Smooth Scrolling
+        const lenis = new Lenis({
+            duration: 1.2,
+            easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+            direction: 'vertical',
+            gestureDirection: 'vertical',
+            smooth: true,
+            mouseMultiplier: 1,
+            smoothTouch: false,
+            touchMultiplier: 2,
+            infinite: false,
+        });
+
+        function raf(time) {
+            lenis.raf(time);
+            requestAnimationFrame(raf);
+        }
+        requestAnimationFrame(raf);
+
+        // Theme Toggle
+        const themeToggle = document.getElementById('theme-toggle');
+        const icon = themeToggle.querySelector('i');
+        const html = document.documentElement;
+
+        themeToggle.addEventListener('click', () => {
+            const current = html.getAttribute('data-theme');
+            const next = current === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-theme', next);
+            icon.className = next === 'dark' ? 'fa-solid fa-sun' : 'fa-solid fa-moon';
+        });
+
+        // Intersection Observer for Reveal Animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if(entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+        document.querySelectorAll('.reveal-up').forEach(el => observer.observe(el));
+
+        // Navbar blur on scroll
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('.navbar');
+            if(window.scrollY > 50) nav.classList.add('scrolled');
+            else nav.classList.remove('scrolled');
+        });
+    </script>
+</body>
+</html>
